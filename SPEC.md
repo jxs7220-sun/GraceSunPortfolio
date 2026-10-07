@@ -28,6 +28,10 @@ The name should appear clearly on the About Me and Contact pages.
 
 ## Pages
 
+### First working version
+
+Promote chosen Scheme B to top-level index.html and build about.html, projects.html, and contact.html. All four pages have working relative navigation and labelled placeholders for missing content. Remove all three scheme folders. At Grace Sun's request, authentication and login.html are deferred; pages open directly and Log Out remains disabled with an explanation. The authentication requirements below apply to a later phase. Deployment is also deferred.
+
 The website contains four main pages:
 
 - Home

@@ -295,6 +295,10 @@ Animation should support navigation and hierarchy, not become the design itself.
 
 ## Home Page
 
+### Chosen direction — Scheme B: Layered exhibition
+
+Scheme B is the chosen direction for every page. Retain its offset exhibition-board composition, overlapping paper-white panels, subtle shadows, Dusty Lavender markers, italic Cormorant Garamond headings, and clear DM Sans interface text. Home keeps the selected layered hero and varied project scales. About Me, Projects, and Contact extend the same language. Layers stack clearly on mobile. Remove the comparison scheme folders after promotion.
+
 The Home page should immediately communicate a strong design identity without emphasizing Grace Sun's name.
 
 The first screen should prioritize:
