@@ -45,6 +45,8 @@ The site also contains:
 
 ## 1. login.html
 
+Use images/SUN_FINAL_06.jpg in the existing left visual panel instead of the atmospheric image placeholder. Keep the image proportional and the main projecting architectural structure visible, using a cover treatment with only the crop needed to fill the complete visual panel. Include the former inner border area in the image while preserving the panel outer dimensions (608px desktop, 228px at 601–700px, and 204px at 600px and below), form spacing, and authentication behavior. Favor the upper-central projecting structure in the crop.
+
 Purpose:
 
 The front door to the entire portfolio.
