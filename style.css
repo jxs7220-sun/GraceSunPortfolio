@@ -21,7 +21,7 @@ nav [data-logout]{cursor:pointer;background:transparent;color:#252422;border:1px
  header{gap:16px;padding:24px 0}
  nav{width:100%;gap:8px 12px}
  nav a,nav [data-logout]{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 8px}
- .brand{line-height:1.5;overflow-wrap:anywhere}
+ .brand{display:inline-flex;align-items:center;min-height:44px;line-height:1.5;overflow-wrap:anywhere}
  .page-heading{padding:32px 0 24px}
  .page-heading h1{margin-bottom:16px;line-height:1.05}
  .scheme-b .hero-copy h1{line-height:1.05}
