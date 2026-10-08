@@ -314,6 +314,8 @@ The website is published from GitHub to Vercel.
 
 ## Responsive Behaviour
 
+Apply the final responsive polish across all five pages without changing content, project grouping, assets, or authentication. Phone navigation and buttons have at least 44px touch targets; headings wrap without clipping, panels stack without overlap, and project supporting images become one column at 600px and below. Preserve desktop compositions and avoid horizontal scrolling.
+
 The website must work on a phone.
 
 Desktop layouts may use a flexible multi-column grid.

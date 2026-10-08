@@ -16,3 +16,24 @@ nav [data-logout]{cursor:pointer;background:transparent;color:#252422;border:1px
 /* Home hero fills the existing Scheme B frame with a centered crop. */
 .scheme-b .hero-visual .home-hero-image{display:block;width:100%;height:440px;object-fit:cover;object-position:center}
 @media(max-width:600px){.scheme-b .hero-visual .home-hero-image{height:240px}}
+/* Final phone polish: retain desktop exhibition compositions. */
+@media(max-width:700px){
+ header{gap:16px;padding:24px 0}
+ nav{width:100%;gap:8px 12px}
+ nav a,nav [data-logout]{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 8px}
+ .brand{line-height:1.5;overflow-wrap:anywhere}
+ .page-heading{padding:32px 0 24px}
+ .page-heading h1{margin-bottom:16px;line-height:1.05}
+ .scheme-b .hero-copy h1{line-height:1.05}
+ .section-heading{flex-wrap:wrap;gap:8px 16px}
+ .section-heading a,.view-work,footer a{display:inline-flex;align-items:center;min-height:44px}
+ .scheme-b .hero-copy,.contact-title,.contact-info{padding:24px}
+ .contact-title h2{line-height:1.1}
+ footer{margin-top:40px;line-height:1.5}
+ .hero-copy,.hero-visual,.paper,.contact-title,nav{min-width:0}
+ .login-page .auth-primary,.login-page .auth-secondary{min-height:48px}
+}
+@media(max-width:600px){
+ .scheme-b h1,.page-heading h1{font-size:48px}
+ .section-heading h2{font-size:32px}
+}

@@ -233,6 +233,10 @@ Mobile:
 
 The underlying grid should create order while the image scale creates rhythm.
 
+## Mobile Polish
+
+Keep desktop Scheme B compositions unchanged. At phone widths, use consistent 24px panel padding, readable heading line heights, and navigation/button touch targets at least 44px high. Let navigation and section headings wrap naturally. Stack project supporting images in a single column on phones so architectural imagery remains legible; retain the aligned supporting rows on larger screens. Keep every image, content item, font family, and color unchanged.
+
 ## Spacing
 
 Use consistent spacing rather than excessive empty space.

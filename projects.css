@@ -39,4 +39,8 @@
  .projects-page .group-two .project-support{align-self:stretch}
  .projects-page .group-two .project-support figure{position:relative;flex:1}
  .projects-page .group-two .project-support img{position:absolute;inset:0;width:100%;height:100%;max-height:none;object-fit:cover;object-position:center}
+}@media(max-width:600px){
+ .projects-page .group-heading{flex-wrap:wrap;gap:12px;align-items:baseline}
+ .projects-page .group-heading h2{font-size:32px}
+ .projects-page .project-support,.projects-page .group-one .project-support{grid-template-columns:1fr;gap:16px}
 }
