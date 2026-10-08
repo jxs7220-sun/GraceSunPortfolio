@@ -189,6 +189,10 @@ If dedicated project pages are added later, SPEC.md must be updated before build
 
 ## 5. contact.html — Contact
 
+Use the supplied closing statement: Thank you for visiting my portfolio. I am always interested in opportunities to learn, collaborate, and explore new ideas across architecture, design, and technology.
+
+No real email or professional links have been supplied. Display Email available upon request. and Professional links available upon request. Use the existing supplied Resume / CV available upon request. text without a fake link. Remove Contact's [ADD: ...] placeholders and outdated content-awaiting notice. Keep the existing Scheme B composition unchanged.
+
 Purpose:
 
 Provide a simple way to find Grace Sun's contact and professional information.
