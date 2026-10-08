@@ -319,6 +319,10 @@ Keep Grace Sun as the main heading. Use a portrait presentation board with an ov
 
 Use images/self.png as the full, uncropped portrait with object-fit: contain and its original transparency. Place it against warm off-white with no black background. Keep the layered biography panel and responsive composition.
 
+## Projects Page
+
+Use exactly three aligned editorial project groups. Each group has a consistent full-width heading, a paper-white exhibition board, one large lead image, and clearly associated smaller supporting images. Use a twelve-column grid with consistent gutters and outer edges. Project 01 uses a full-width lead with three supporting images aligned below it in equal-height 5:3 frames, with consistent gaps and centered, minimal cover crops; Project 02 pairs a large landscape view with a vertical tower view whose supporting frame aligns with the lead at both edges on desktop. Project 03 reverses the lead/support arrangement and uses matching 5:3 supporting frames with centered minimal cover crops. Keep lead images and existing gutters unchanged. Separate groups with generous consistent spacing and thin rules. Retain Scheme B typography, lavender markers, subtle paper shadows, and natural image proportions. Stack lead images before supporting images on mobile.
+
 ## Log-In Page
 
 The log-in page is the front door of the portfolio.

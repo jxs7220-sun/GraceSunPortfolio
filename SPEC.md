@@ -147,6 +147,16 @@ If information is missing, use a clear placeholder or ask for it.
 
 ## 4. projects.html — Projects
 
+Use exactly three project groups, confirmed by Grace Sun. Keep neutral labels Selected Project 01, Selected Project 02, and Selected Project 03; do not invent further project facts or descriptions.
+
+Project 01: images/1344.jpg (lead), images/render 2.jpg, images/render 4.jpg, images/render 6.jpg. These belong to the same structural pavilion / canopy project.
+
+Project 02: images/SUN_FINAL_13.jpg (lead) and images/SUN_FINAL_03.jpg. Both belong to the same tall residential / tower project.
+
+Project 03: images/rendering 111.jpg (lead), images/rendering 333.jpg, images/rendering 555.jpg. These belong to one architectural project.
+
+Do not use images/132.jpg on Projects; it is the Home hero. No dedicated project-detail pages are added.
+
 Purpose:
 
 Present and organize selected portfolio work.

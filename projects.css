@@ -1,0 +1,42 @@
+/* Projects only: three aligned Scheme B exhibition groups. */
+.projects-page .portfolio-groups{display:flex;flex-direction:column;gap:64px}
+.projects-page .portfolio-group{border-top:1px solid #D8D3CB;padding-top:24px}
+.projects-page .group-heading{display:flex;gap:24px;align-items:baseline;margin-bottom:24px}
+.projects-page .group-heading h2{font-size:48px;line-height:1.1}
+.projects-page .project-board{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;padding:24px;background:#FCFAF7;box-shadow:0 6px 20px #25242208;align-items:start}
+.projects-page .project-lead{grid-column:1/9;grid-row:1}
+.projects-page .project-support{grid-column:9/13;grid-row:1;display:flex;flex-direction:column;gap:24px;min-width:0}
+.projects-page .project-board img{display:block;width:100%;height:auto}
+.projects-page .group-two .project-support img{max-height:560px;width:auto;max-width:100%;object-fit:contain;margin:auto}
+.projects-page .group-three .project-lead{grid-column:5/13}
+.projects-page .group-three .project-support{grid-column:1/5}
+.projects-page .group-one .project-lead{grid-column:1/-1}
+.projects-page .group-one .project-support{grid-column:1/-1;grid-row:2;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}
+.projects-page .group-one .project-support img{aspect-ratio:5/3;object-fit:cover;object-position:center}
+@media(max-width:900px){
+ .projects-page .project-board{grid-template-columns:repeat(6,minmax(0,1fr));padding:16px}
+ .projects-page .project-lead{grid-column:1/5}
+ .projects-page .project-support{grid-column:5/7;gap:16px}
+ .projects-page .group-three .project-lead{grid-column:3/7}
+ .projects-page .group-three .project-support{grid-column:1/3}
+ .projects-page .group-heading h2{font-size:40px}
+}
+@media(max-width:700px){
+ .projects-page .portfolio-groups{gap:40px}
+ .projects-page .group-heading{gap:16px;align-items:start}
+ .projects-page .group-heading h2{font-size:36px}
+ .projects-page .project-board{display:flex;flex-direction:column;gap:16px;padding:12px}
+ .projects-page .project-lead,.projects-page .project-support{width:100%}
+ .projects-page .project-support{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
+ .projects-page .group-one .project-support{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .projects-page .group-one .project-support figure:last-child{grid-column:auto}
+ .projects-page .group-two .project-support{display:block}
+ .projects-page .group-two .project-support img{max-height:440px}
+}
+/* Supporting-frame alignment only; lead images and Project 01 are unchanged. */
+.projects-page .group-three .project-support img{aspect-ratio:5/3;object-fit:cover;object-position:center}
+@media(min-width:701px){
+ .projects-page .group-two .project-support{align-self:stretch}
+ .projects-page .group-two .project-support figure{position:relative;flex:1}
+ .projects-page .group-two .project-support img{position:absolute;inset:0;width:100%;height:100%;max-height:none;object-fit:cover;object-position:center}
+}
