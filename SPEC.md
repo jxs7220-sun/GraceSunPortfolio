@@ -69,6 +69,8 @@ login.html is never gated.
 
 The Home hero uses images/132.jpg, supplied by Grace Sun. Fill the existing Scheme B hero image frame using a responsive cover treatment without distortion. Center the crop, allowing only the cropping needed to fill the frame while retaining the canopy and angled architectural supports. Keep the current frame dimensions and layout unchanged. No project title or caption has been supplied for this image; omit the hero caption. All other page content and the layout remain unchanged.
 
+Home Selected Projects uses images/1344.jpg, images/SUN_FINAL_03.jpg, and images/rendering 333.jpg in order, representing the three existing project groups. Label them Selected Project 01, Selected Project 02, and Selected Project 03, each with Selected architectural work. Keep the hero unchanged and retain the existing card hierarchy and layered captions. Preserve image proportions; keep the complete tower visible.
+
 Purpose:
 
 Introduce the portfolio's visual identity and direct visitors toward selected projects.

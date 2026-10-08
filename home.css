@@ -1,0 +1,7 @@
+/* Home previews only: retain the existing Scheme B card hierarchy. */
+#selected-work .home-project-image{display:block;width:100%;height:340px;object-fit:cover;object-position:center}
+#selected-work .project:nth-child(2) .home-project-image{height:260px;object-fit:contain;padding-bottom:40px}
+#selected-work .project:nth-child(3) .home-project-image{height:300px}
+@media(max-width:700px){
+ #selected-work .project:nth-child(n) .home-project-image{height:240px}
+}
