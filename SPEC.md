@@ -67,6 +67,8 @@ login.html is never gated.
 
 ## 2. index.html — Home
 
+The Home hero uses images/132.jpg, supplied by Grace Sun. Fill the existing Scheme B hero image frame using a responsive cover treatment without distortion. Center the crop, allowing only the cropping needed to fill the frame while retaining the canopy and angled architectural supports. Keep the current frame dimensions and layout unchanged. No project title or caption has been supplied for this image; omit the hero caption. All other page content and the layout remain unchanged.
+
 Purpose:
 
 Introduce the portfolio's visual identity and direct visitors toward selected projects.
