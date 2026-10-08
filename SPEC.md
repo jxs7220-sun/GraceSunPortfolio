@@ -30,7 +30,7 @@ The name should appear clearly on the About Me and Contact pages.
 
 ### First working version
 
-Promote chosen Scheme B to top-level index.html and build about.html, projects.html, and contact.html. All four pages have working relative navigation and labelled placeholders for missing content. Remove all three scheme folders. At Grace Sun's request, authentication and login.html are deferred; pages open directly and Log Out remains disabled with an explanation. The authentication requirements below apply to a later phase. Deployment is also deferred.
+Promote chosen Scheme B to top-level index.html and build about.html, projects.html, and contact.html. All four pages have working relative navigation and labelled placeholders for missing content. Remove all three scheme folders. Supabase authentication is now required: login.html is public; all four portfolio pages check authentication and offer working Log Out controls. Deployment remains deferred. If email confirmation is enabled in Supabase, signup asks the visitor to confirm their email before logging in; an authenticated signup redirects to index.html.
 
 The website contains four main pages:
 
