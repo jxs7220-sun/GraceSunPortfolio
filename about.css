@@ -1,0 +1,38 @@
+/* About Me only: Scheme B exhibition composition. */
+.about-page .about-heading{padding-bottom:24px}
+.about-page .about-heading h1{margin-bottom:8px}
+.about-page .about-introduction{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:center}
+.about-page .about-portrait{grid-column:1/7;grid-row:1;padding:24px}
+.about-page .about-portrait{background:#F5F2EC}.about-page .about-portrait-image{display:block;width:100%;height:440px;object-fit:contain;background:transparent}
+.about-page .about-biography{grid-column:6/13;grid-row:1;position:relative;padding:40px;border:1px solid #D8D3CB;background:rgba(252,250,247,.96)}
+.about-page .about-biography h2{margin:16px 0 24px;font-style:italic}
+.about-page .missing-content{min-height:64px}
+.about-page .about-interests{border-top:1px solid #D8D3CB;padding-top:24px}
+.about-page h3{font-size:28px;margin-bottom:16px}
+.about-page .about-background-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;margin-top:40px;align-items:start}
+.about-page .about-background{grid-column:2/9;padding:32px}
+.about-page .about-background h2,.about-page .about-skills h2{margin-top:16px;font-style:italic}
+.about-page .background-entry{border-top:1px solid #D8D3CB;padding-top:24px;margin-top:24px}
+.about-page .about-skills{grid-column:9/13;margin-top:40px;padding:32px;border-top:4px solid #D8D0DF}
+.about-page .about-resume{margin:40px 0 0;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:32px;border:1px solid #D8D3CB;box-shadow:none}
+.about-page .about-resume h2{margin:16px 0 0;font-style:italic}
+.about-page .about-resume>p{margin:0}
+@media(max-width:900px){
+ .about-page .about-introduction,.about-page .about-background-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+ .about-page .about-portrait{grid-column:1/4;padding:16px}
+ .about-page .about-biography{grid-column:3/7;padding:24px}
+ .about-page .about-background{grid-column:1/5;padding:24px}
+ .about-page .about-skills{grid-column:5/7;padding:24px}
+}
+@media(max-width:700px){
+ .about-page .about-introduction,.about-page .about-background-grid{display:flex;flex-direction:column;gap:24px}
+ .about-page .about-portrait,.about-page .about-biography,.about-page .about-background,.about-page .about-skills{width:100%;margin:0;padding:24px}
+ .about-page .about-portrait{padding:16px}
+ .about-page .about-portrait-image{height:320px}
+ .about-page .about-background-grid{margin-top:24px}
+ .about-page .missing-content{min-height:0}
+ .about-page .about-resume{margin-top:24px;align-items:start;flex-direction:column;padding:24px}
+ .about-page .about-heading h1{font-size:48px}
+ .about-page h2{font-size:32px}
+}
+.about-page .about-list{margin:0;padding:0;list-style:none}.about-page .about-list li+li{margin-top:8px}

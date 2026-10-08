@@ -313,6 +313,12 @@ Projects should become visible quickly.
 
 Avoid a long introduction before showing work.
 
+## About Me Page
+
+Keep Grace Sun as the main heading. Use a portrait presentation board with an overlapping paper biography panel, followed by an education/background section and a smaller design-interests panel. A restrained Resume / CV panel completes the page. Retain Scheme B's typography, warm neutrals, thin rules, soft shadows, and small lavender markers. Stack the composition clearly on mobile without overlap. Do not change global navigation or other pages.
+
+Use images/self.png as the full, uncropped portrait with object-fit: contain and its original transparency. Place it against warm off-white with no black background. Keep the layered biography panel and responsive composition.
+
 ## Log-In Page
 
 The log-in page is the front door of the portfolio.

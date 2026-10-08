@@ -91,6 +91,31 @@ Project previews should have different visual sizes so important projects can ha
 
 ## 3. about.html — About Me
 
+Use the supplied content below on About Me with no [ADD: ...] placeholders. Use images/self.png as a transparent, full portrait. Omit experience and skills claims because none have been supplied.
+
+Biography:
+Grace Sun is an architecture student at the University of Miami with interests across architecture, interactive design, game design, and emerging technologies. Her work explores how spatial design can connect with digital interaction, user experience, and new forms of technology.
+
+Education:
+University of Miami
+Bachelor of Architecture
+
+Minors:
+Game Design
+Interactive Design
+
+Design interests:
+Architecture
+Urban Design
+Interactive Environments
+Digital Experience
+Game Design
+Emerging Technology
+
+Resume / CV:
+Resume / CV available upon request.
+Do not create a download button or link without an actual supplied resume file.
+
 Purpose:
 
 Introduce Grace Sun and provide background relevant to the portfolio.
