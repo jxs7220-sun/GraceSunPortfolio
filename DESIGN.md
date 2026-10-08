@@ -301,7 +301,7 @@ Animation should support navigation and hierarchy, not become the design itself.
 
 ### Chosen direction — Scheme B: Layered exhibition
 
-Scheme B is the chosen direction for every page. Retain its offset exhibition-board composition, overlapping paper-white panels, subtle shadows, Dusty Lavender markers, italic Cormorant Garamond headings, and clear DM Sans interface text. Home keeps the selected layered hero and varied project scales. About Me, Projects, and Contact extend the same language. Layers stack clearly on mobile. Remove the comparison scheme folders after promotion.
+Scheme B is the chosen direction for every page. Retain its offset exhibition-board composition, overlapping paper-white panels, subtle shadows, Dusty Lavender markers, italic Cormorant Garamond headings, and clear DM Sans interface text. Home keeps the selected layered hero. Selected Projects uses three aligned horizontal editorial preview blocks with images on the left and a paper-white text panel on the right, restrained lavender project numbers, generous spacing, and thin rules. Each entire block is a keyboard-accessible link to its matching Projects section, with a subtle image-opacity hover and visible focus outline. On mobile, stack images above text without overlap. About Me, Projects, and Contact extend the same language. Layers stack clearly on mobile. Remove the comparison scheme folders after promotion.
 
 The Home page should immediately communicate a strong design identity without emphasizing Grace Sun's name.
 

@@ -1,7 +1,19 @@
-/* Home previews only: retain the existing Scheme B card hierarchy. */
-#selected-work .home-project-image{display:block;width:100%;height:340px;object-fit:cover;object-position:center}
-#selected-work .project:nth-child(2) .home-project-image{height:260px;object-fit:contain;padding-bottom:40px}
-#selected-work .project:nth-child(3) .home-project-image{height:300px}
+/* Home Selected Projects: linked editorial exhibition boards. */
+#selected-work .home-previews{display:flex;flex-direction:column;gap:64px}
+#selected-work .home-preview{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:24px;border-top:1px solid #D8D3CB;padding-top:24px;background:transparent}
+#selected-work .preview-visual{background:#FCFAF7;padding:16px;min-width:0}
+#selected-work .preview-visual img{display:block;width:100%;height:340px;object-fit:cover;object-position:center;transition:opacity 180ms ease}
+#selected-work .home-preview:nth-child(2) img{object-fit:contain}
+#selected-work .preview-copy{background:#FCFAF7;padding:40px;box-shadow:0 6px 20px #25242208;min-width:0}
+#selected-work .preview-copy h3{font-style:italic;font-size:44px;margin:16px 0 24px;line-height:1.1}
+#selected-work .preview-copy>p:last-child{line-height:1.6}
+#selected-work .home-preview:hover .preview-visual img{opacity:.9}
+#selected-work .home-preview:focus-visible{outline:2px solid #252422;outline-offset:6px}
+@media(max-width:900px){#selected-work .preview-copy{padding:24px}#selected-work .preview-copy h3{font-size:36px}}
 @media(max-width:700px){
- #selected-work .project:nth-child(n) .home-project-image{height:240px}
+ #selected-work .home-previews{gap:40px}
+ #selected-work .home-preview{grid-template-columns:minmax(0,1fr);gap:0}
+ #selected-work .preview-visual img{height:240px}
+ #selected-work .preview-copy h3{font-size:32px;margin-bottom:16px}
 }
+@media(prefers-reduced-motion:reduce){#selected-work .preview-visual img{transition:none}}

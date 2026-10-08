@@ -71,7 +71,16 @@ login.html is never gated.
 
 The Home hero uses images/132.jpg, supplied by Grace Sun. Fill the existing Scheme B hero image frame using a responsive cover treatment without distortion. Center the crop, allowing only the cropping needed to fill the frame while retaining the canopy and angled architectural supports. Keep the current frame dimensions and layout unchanged. No project title or caption has been supplied for this image; omit the hero caption. All other page content and the layout remain unchanged.
 
-Home Selected Projects uses images/1344.jpg, images/SUN_FINAL_03.jpg, and images/rendering 333.jpg in order, representing the three existing project groups. Label them Selected Project 01, Selected Project 02, and Selected Project 03, each with Selected architectural work. Keep the hero unchanged and retain the existing card hierarchy and layered captions. Preserve image proportions; keep the complete tower visible.
+Home Selected Projects contains exactly three full-block links, with images left and text right on desktop and images above text on mobile. Retain images/1344.jpg, images/SUN_FINAL_03.jpg, and images/rendering 333.jpg in order. Each block links to projects.html#project-01, #project-02, or #project-03 respectively. Add matching IDs to the existing Projects groups plus the approved separate anchor helper, which waits for authenticated content and preceding images before scrolling. Their content and authentication logic stay unchanged. Preserve image proportions and the full tower. Keep the Home hero unchanged.
+
+Project 01 — Meditation Center
+A meditation center designed as a quiet retreat focused on calm, reflection, and spatial rhythm. The project explores how structure, light, and framed views can create a more peaceful experience while maintaining a strong architectural identity.
+
+Project 02 — Architectural Photography
+A selected architectural photography study focused on form, structure, material, light, and perspective. The images explore how buildings can be read through composition and visual framing rather than only through drawings or plans.
+
+Project 03 — Youth Center
+A youth center designed to support gathering, learning, and everyday social activity. The project combines open community spaces, shaded outdoor areas, and flexible programs to create an environment that feels welcoming and active.
 
 Purpose:
 
@@ -91,7 +100,7 @@ Show project work quickly.
 
 Avoid large amounts of introductory text.
 
-Project previews should have different visual sizes so important projects can have greater emphasis.
+Home previews use consistent aligned horizontal blocks; the Projects page retains its varied lead/support image hierarchy.
 
 ## 3. about.html — About Me
 
